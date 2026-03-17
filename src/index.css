@@ -1,23 +1,15 @@
 *{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
 }
-html,body{
+html, body{
   height: 100%;
   width: 100%;
 }
-h1{
-  background-color: #626060;
-  border-radius: 10px;
-  width: fit-content;
-  font-size: 100px;
-  padding: 70px;
-}
-
-button{
-  padding: 10px 20px;
+input,button{
+  padding: 10px 25px;
   margin: 10px;
-  width: fit-content;
-  border-radius: 5px;
-  border: none;
-  background: #716e6e;
+  font-size: 15px;
 }
